@@ -1,0 +1,81 @@
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>SPFX Makeup</title>
+		<link rel="stylesheet" href="style.css" />
+		<link href="hover.css" rel="stylesheet" media="all">
+	</head>
+
+	<body>
+		<div class="bigcolumn">
+			<!-- Images Column -->
+			<div class="challengeone">
+				<div class="box1">
+					<img src="images/finger.jpg" class="maroonboarder hvr-pulse-grow" onclick="optionFinger()" id="finger">
+				</div>
+				<div class="box1">
+					<img src="images/can.jpg" class="maroonboarder hvr-pulse-grow" onclick="optionCan()" id="can">
+				</div>
+				<div class="box1">
+					<img src="images/demon.jpg" class="maroonboarder hvr-pulse-grow" onclick="optionDemon()" id="demon">
+				</div>
+				<div class="box1">
+					<img src="images/monster.jpg" class="maroonboarder hvr-pulse-grow" onclick="optionMonster()" id="monster">
+				</div>
+			</div>
+			<!-- SemiFinals Column -->
+			<div class="finals">
+				<div class="box2"  id="finger-can" onclick="checkSemifinal1()">
+					<img src="" class="semifinal">
+				</div>
+				<div class="box2" id="demon-monster" onclick="checkSemifinal2()">
+					<img src="" class="semifinal">
+				</div>
+			</div>
+			<!-- Finals Column -->
+			<div class="finals"  id="finalsHolder" onclick="checkWinner1()">
+				<img src="" class="final">
+			</div>
+		</div>
+		<!-- Winner Column -->
+		<div class="smallcolumn"  id="winner">
+			<img src="" class="winner">
+		</div>
+		<div class="bigcolumn">
+			<!-- Finals2 Column -->
+			<div class="finals" id="finalsHolderTwo" onclick="checkWinner2()">
+				<img src="" class="final2">
+			</div>
+			<!-- SemiFinals2 Column -->
+			<div class="finals">
+				<div class="box2" id="face-foot" onclick="checkSemifinal3()">
+					<img src="" class="semifinal2">
+				</div>
+				<div class="box2" id="jason-slappy" onclick="checkSemifinal4()">
+					<img src="" class="semifinal2">
+				</div>
+			</div>
+			<!-- Images2 Column -->
+			<div class="challengeone">
+				<div class="box1">
+					<img src="images/face.jpg" class="maroonboarder hvr-pulse-grow" onclick="optionFace()" id="face">
+				</div>
+				<div class="box1">
+					<img src="images/foot.jpg" class="maroonboarder hvr-pulse-grow" onclick="optionFoot()" id="foot">
+				</div>
+				<div class="box1">
+					<img src="images/jason.jpg" class="maroonboarder hvr-pulse-grow" onclick="optionJason()" id="jason">
+				</div>
+				<div class="box1">
+					<img src="images/slappy.jpg" class="maroonboarder hvr-pulse-grow" onclick="optionSlappy()" id="slappy">
+				</div>
+			</div>
+		</div>
+		
+		
+		<script src="script.js"></script>
+	</body>
+	
+</html>
